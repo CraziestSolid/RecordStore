@@ -1,6 +1,8 @@
 import javax.swing.JOptionPane;
 import java.util.Scanner;
 
+
+
 public class RecordStore {
 
     public static void main(String[] args) {
@@ -31,6 +33,8 @@ public class RecordStore {
         else {
             System.out.println("User " + userID + " are now logged off");
         }*/
+
+
 
         String userID = JOptionPane.showInputDialog("Enter your account name:");
         String userPassword = JOptionPane.showInputDialog("Enter your password:");
